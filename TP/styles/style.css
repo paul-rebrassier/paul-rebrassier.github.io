@@ -1,4 +1,48 @@
-.body{
+body{
     margin: 0;
     background-color: #a5c0dd;
+}
+
+header{
+    display: flex;
+    font-size: 18pt;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid #FFF;
+}
+
+.fruits{
+    margin-right: 800px;
+    margin-left: -110px;
+}
+
+.mobilier{
+    margin-left: -110px;
+}
+
+.BTM{
+    font-weight: bold;
+    margin-left: -60px;
+}
+
+.loupe{
+    padding: 10px;
+    margin-right: -100px;
+}
+
+.encart{
+    margin: 75px;
+}
+
+.citron{
+    margin-left: 80px;
+}
+
+.details{
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.liste{
+    margin-left: 30px;
 }
