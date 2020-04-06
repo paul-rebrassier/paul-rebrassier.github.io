@@ -1,0 +1,18 @@
+body{
+    background: #6699ff;
+}
+.sudoku{
+    display: inline-grid;
+    grid-template-columns: repeat(9, auto);
+}
+.sudoku>div{
+    padding: 2px;
+}
+.sudoku input{
+    width: 28px;
+    height: 28px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    padding: 0;
+}
