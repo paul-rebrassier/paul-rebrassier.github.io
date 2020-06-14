@@ -1,0 +1,86 @@
+body{
+	margin: 0;
+	background-color: #e0d5f3;
+	font-family: "Libre Franklin", sans-serif;
+
+	
+
+}
+header{
+	display: grid;
+	justify-items: center;
+	grid-template-columns: 1fr 1fr 1fr;
+	background-color: #d1c4e9;
+	border: 2px solid #333333;
+}
+
+.logo{
+	width: 20%;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.titre{
+	flex-basis: 25%;
+}
+
+
+
+.centre{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 100%;
+	font-size: 20px;
+}
+
+
+.equipe{
+	border: 2px solid #111111;
+}
+
+.image_et_texte{
+	display: flex;
+
+}
+
+.photo{
+	width: 20%;
+	margin-right: 5%;
+}
+
+.prestations{
+	border: 2px solid #111111;
+}
+
+.realisations{
+	border: 2px solid #111111;
+}
+
+.contact{
+	margin: auto;
+	padding: 10%;
+}
+
+#lien{
+	border: 1px solid #b577ad;
+	border-radius: 7%;
+	padding: 5px;
+}
+
+.mise_en_forme{
+	border-style: none none solid none;
+}
+
+.mentions_legales{
+	margin: auto;
+}
+
+form{
+	border: 2px solid black;
+	display: inline-block;
+	flex-direction: column;
+	padding: 1%;
+	justify-content: center;
+}
