@@ -9,7 +9,7 @@ body{
 #zone_1{
     background-color: aquamarine;
     display: grid;
-    grid-template-rows: 1vh auto;
+    grid-template-rows: auto 1vh;
 }
 
 #zone_2{
