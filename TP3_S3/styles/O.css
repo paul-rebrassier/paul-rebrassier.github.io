@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+}
+
+.zone{
+    height: 100vh;
+}
+
+#zone_1{
+    background-color: aquamarine;
+    display: grid;
+    grid-template-rows: 1vh auto;
+}
+
+#zone_2{
+    background-color: #a1e400;
+}
+
+#zone_3{
+    background-color: red;
+}
