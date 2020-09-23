@@ -18,4 +18,5 @@ body{
 
 #zone_3{
     background-color: red;
+    display: flex;
 }
